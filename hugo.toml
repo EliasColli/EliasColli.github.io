@@ -1,18 +1,19 @@
-baseURL = 'https://EliasColli.github.io/'
-languageCode = 'en-us'
+baseURL = 'https://eliascolli.github.io/'
 title = 'Elias Colli'
 theme = 'congo'
 
 [params]
+  description = 'Estudiante de Ingeniería en Desarrollo y Gestión de Software en la UTM'
+  homepage.layout = 'profile'
+  homepage.homepageImage = 'img/profile.jpg'
+  showDescription = true
+
+[params.author]
   name = 'Elias Colli'
-  description = 'Estudiante de Ingeniería en Desarrollo y Gestión de Software'
-
-[[params.links]]
-  name = 'GitHub'
-  icon = 'github'
-  url = 'https://github.com/EliasColli'
-
-[[params.links]]
-  name = 'Email'
-  icon = 'email'
-  url = 'mailto:bautistacollicarloselias@gmail.com'
+  image = 'img/profile.jpg'
+  headline = 'Desarrollador de Software | UTM'
+  bio = '¡Hola! Soy Elias Colli, estudiante de Ingeniería en Desarrollo y Gestión de Software en la UTM. Me apasiona el desarrollo web y las nuevas tecnologías.'
+  links = [
+    { name = 'GitHub', icon = 'github', url = 'https://github.com/EliasColli' },
+    { name = 'Email', icon = 'email', url = 'mailto:bautistacollicarloselias@gmail.com' }
+  ]
