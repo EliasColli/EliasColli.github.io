@@ -1,0 +1,18 @@
+baseURL = 'https://EliasColli.github.io/'
+languageCode = 'en-us'
+title = 'Elias Colli'
+theme = 'congo'
+
+[params]
+  name = 'Elias Colli'
+  description = 'Estudiante de Ingeniería en Desarrollo y Gestión de Software'
+
+[[params.links]]
+  name = 'GitHub'
+  icon = 'github'
+  url = 'https://github.com/EliasColli'
+
+[[params.links]]
+  name = 'Email'
+  icon = 'email'
+  url = 'mailto:bautistacollicarloselias@gmail.com'
